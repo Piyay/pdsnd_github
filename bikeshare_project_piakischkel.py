@@ -161,7 +161,6 @@ def trip_duration_stats(df):
     mean_travel_sec = int(df['Trip Duration'].mean())
     mean_travel_time = datetime.timedelta(seconds=mean_travel_sec)
     print('the average time of a rental is', mean_travel_time)
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
