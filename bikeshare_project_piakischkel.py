@@ -21,7 +21,7 @@ def get_filters():
     available_days = ['monday', 'tuesday', 'wednesday','thursday', 'friday', 'saturday', 'sunday', 'all']
     print('\n\nHello! Let\'s explore some US bikeshare data!\n')
 
-    # gets the input of the cities
+    # gets the input for the city
     city = input('Please enter the name of the city you want to see the data for!\n\n').lower()
     while city not in CITY_DATA.keys():
         city = input('\nPlease chose Washington, Chicago or New York City!\n\n').lower()
