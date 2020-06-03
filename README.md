@@ -5,7 +5,7 @@
 Explore US Bike Share Data
 
 ## Description
-This python code allows users to see statistics of bikesharing data of three cities in the US. The user can filter datasets by city / month / day.
+This python code allows users to see statistics of bikesharing data of three cities in the US. Datasets can get filtered by city / month / day.
 
 ## Files used
 * bikeshare_project_piakischkel.py
