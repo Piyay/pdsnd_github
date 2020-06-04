@@ -131,11 +131,11 @@ def station_stats(df):
     start_time = time.time()
 
     # displays most commonly used start station
-    most_common_SStation = df['Start Station'].mode()[0]
+    most_common_sstation = df['Start Station'].mode()[0]
     print('the station where the most rentals started is', most_common_SStation)
 
     # displays most commonly used end station
-    most_common_EStation = df['End Station'].mode()[0]
+    most_common_estation = df['End Station'].mode()[0]
     print('the station where the most rentals ended is', most_common_EStation)
 
     # displays most frequent combination of start station and end station trip
@@ -161,7 +161,6 @@ def trip_duration_stats(df):
     mean_travel_sec = int(df['Trip Duration'].mean())
     mean_travel_time = datetime.timedelta(seconds=mean_travel_sec)
     print('the average time of a rental is', mean_travel_time)
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
